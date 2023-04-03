@@ -41,6 +41,8 @@ class MainActivity : AppCompatActivity() {
                 if (news != null) {
                     article.addAll(news.articles)
                     adapter.notifyDataSetChanged()
+
+
                 }
 
 
